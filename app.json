@@ -15,10 +15,10 @@
     },
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.nailbyyoon"
+      "bundleIdentifier": "com.nailbyyoon.app"
     },
     "android": {
-      "package": "com.nailbyyoon",
+      "package": "com.nailbyyoon.app",
       "adaptiveIcon": {
         "backgroundColor": "#FFF0F3",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
