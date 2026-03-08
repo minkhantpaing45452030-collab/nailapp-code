@@ -1,9 +1,24 @@
 {
-  "builds": {
-    "android": {
-      "preview": {
-        "workflow": "managed" 
+  "cli": {
+    "version": ">= 10.1.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
       }
+    },
+    "production": {
+      "autoIncrement": true
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
