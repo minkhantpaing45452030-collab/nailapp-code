@@ -4,7 +4,7 @@
     "slug": "nail-by-yoon",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/app_icon.png",
     "scheme": "nailbyyoon",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
